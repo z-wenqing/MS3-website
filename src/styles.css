@@ -1,0 +1,62 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+img {
+  width: 175px;
+  height: 175px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: "flex-start";
+  height: 10vh;
+}
+
+.heading {
+  align-items: center;
+  font-size: 6rem;
+  margin-bottom: 1rem;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.ButtonUpdate {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.Button-signout {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+}
+.profile-edit-container {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  height: 40vh;
+
+  font-size: 25px;
+}
+
+.form-container {
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #91A8D0;
+  align-items: top;
+}
